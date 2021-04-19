@@ -15,6 +15,7 @@ tape('should respond hello', (t) => {
   })
 })
 
+<<<<<<< HEAD
 tape('should respond b64', (t) => {
   jsonist.get(`${urlBase}/b64/hello`, (err, body) => {
     if (err) t.error(err)
@@ -24,6 +25,8 @@ tape('should respond b64', (t) => {
   })
 })
 
+=======
+>>>>>>> 468e3ca (fiat lux)
 tape('cleanup', function (t) {
   server.close()
   t.end()
